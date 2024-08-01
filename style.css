@@ -1,0 +1,84 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(233, 233, 233);
+}
+.tada{
+    display: flex;
+    width: 96vw;
+    justify-content:flex-start;
+    margin: 5px;
+}
+.task {
+    border: 1px solid black;
+    padding: 5px;
+    background-color: rgb(236, 232, 232);
+}
+.task{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+textarea{
+    width: 100%;
+}
+.headright{
+    flex-direction: row;
+}
+textarea:focus , textarea:active{
+    border: 1px solid rgba(0,0,0,0);
+}
+.new{
+    float: right;
+    margin: 5px;
+    padding:5px;
+    border: 1px solid black;
+}
+.head{
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 5px;
+}
+.newtask{
+    background-color: rgb(198, 247, 126);
+    padding: 4px;
+    user-select: none; /* Standard syntax */
+    -webkit-user-select: none; /* Chrome, Safari, Opera */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    margin: 4px;
+}
+.newtask:hover {
+    background-color: rgb(172, 255, 47);
+    cursor: pointer;
+}
+.newtask:active{
+    background-color: rgb(255, 255, 255);
+}
+.header{
+    font-size: larger;
+    font-weight: 800;
+
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.tasktext{
+    background-color: rgba(0,0,0,0);
+    border: none;
+    color: black;
+    font-weight: 900;
+    font-size: large;
+}
+.dele{
+    border: 1px solid black;
+    padding: 5px;
+    background-color: rgb(253, 138, 138);
+    cursor: pointer;
+}
+.dele:hover{
+    background-color: rgb(255, 75, 75);
+}
