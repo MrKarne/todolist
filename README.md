@@ -4,6 +4,8 @@ Ever wondered why you always forget things when u note down in a paper? It is be
 
 You don't have to login. You just have to note down your tasks and save. And it will show you the saved tasks next time you visit the page
 
+It works with the help of local storage concept of javascript
+
 This one doesn't have many features. This is minimalistic.
 
 All the best using my simple and useful todo list webpage
